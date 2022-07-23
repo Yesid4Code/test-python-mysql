@@ -8,7 +8,7 @@ SELECT * FROM items INNER JOIN companies ON items.companyId = companies.id WHERE
 SELECT * FROM items ORDER BY id DESC LIMIT 10;
 
 -------* Mostrar los items que en el nombre terminen con la letra A *-------
-SELECT * FROM items ORDER BY id DESC LIMIT 10;
+SELECT * FROM items WHERE name LIKE '%A';
 
 -------* Mostrar los items que tengan relacionado el color Rojo *-------
 SELECT * FROM items INNER JOIN colors ON items.colorid = colors.id WHERE colors.name = "ROJO";
