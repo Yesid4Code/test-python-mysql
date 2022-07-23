@@ -2,7 +2,7 @@
 
 class Data:
     
-    @statictmethod
+    @staticmethod
     def get_companies():
         
         companies = [
@@ -30,7 +30,7 @@ class Data:
         ] 
         return companies
     
-    @statictmethod
+    @staticmethod
     def get_branches():
         
         branches = [
@@ -67,7 +67,7 @@ class Data:
         ]     
         return branches
     
-    @statictmethod
+    @staticmethod
     def get_thirds():
         thirds = [
             {
@@ -373,7 +373,7 @@ class Data:
         ]
         return thirds
     
-    @statictmethod
+    @staticmethod
     def get_colors():
         colors = [
             {
@@ -427,7 +427,7 @@ class Data:
         ]
         return colors
     
-    @statictmethod
+    @staticmethod
     def get_items():
         items = [
             {
