@@ -1,7 +1,6 @@
 # Generar scripts que realicen las siguientes consultas
 
 -------* Consultar los items que pertenezcan a la compañia (utilizando INNER JOIN) con ID #3 *-------
-
 SELECT * FROM items INNER JOIN companies ON items.companyId = companies.id WHERE companies.id = 3;
 
 -------* Mostrar los últimos 10 items *-------
