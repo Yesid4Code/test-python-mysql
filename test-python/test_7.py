@@ -11,7 +11,7 @@ def myFunc(e):
 
 
 def sortItemsByName(colorlessItems):
-    return colorlessItems.sort(key=myFunc)  # sorted by tradename
+    return colorlessItems.sort(key=myFunc)  # sorted by name
 
 if __name__ == "__main__":
     items = Data.get_items()
