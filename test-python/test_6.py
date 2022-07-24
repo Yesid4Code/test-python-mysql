@@ -12,7 +12,7 @@ def myFunc(e):
 
 
 def sortCompaniesByName(thirds):
-    return thirds.sort(key=myFunc)  # sorted by tradename
+    return thirds.sort(key=myFunc)  # sorted by name
 
 
 def appendCompaniesThirds(companies):
