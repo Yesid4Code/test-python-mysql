@@ -6,7 +6,7 @@ from data import Data
 
 
 def myFunc(e):
-    """Function that return 'tradename' as the value"""
+    """Function that return 'name' as the value"""
     return e["name"]
 
 
