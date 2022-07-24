@@ -1,6 +1,7 @@
 """
-  5) ordenar los terceros que se tienen en el archivo data.py por nombre y 
-  agregar dentro de cada tercero una propiedad que muestre la compañia a la que pertenece
+  5) ordenar los terceros que se tienen en el archivo data.py por nombre y
+  agregar dentro de cada tercero una propiedad que muestre la compañia
+  a la que pertenece
 """
 from data import Data
 
@@ -16,7 +17,8 @@ def myFunc(e):
 def sortThirdsByName(thirds):
     for third in thirds:
         if third["tradename"] == "":
-            third["tradename"] = third["firstname"] + " " + third["lastname"] + " " + third["maidenname"]
+            third["tradename"] = third["firstname"] + " " + \
+                third["lastname"] + " " + third["maidenname"]
     return thirds.sort(key=myFunc)  # sorted by tradename
 
 

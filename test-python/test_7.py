@@ -1,6 +1,6 @@
 """
-  7) realice una consulta al archivo data.py, muestre los items que no tienen colores 
-  y ordenelos por nombre
+  7) realice una consulta al archivo data.py, muestre los items que no
+  tienen colores y ordenelos por nombre
 """
 from data import Data
 
@@ -13,11 +13,12 @@ def myFunc(e):
 def sortItemsByName(colorlessItems):
     return colorlessItems.sort(key=myFunc)  # sorted by name
 
+
 if __name__ == "__main__":
     items = Data.get_items()
     colorlessItems = []
     for item in items:
-        if item["color"] == None:
+        if item["color"] is None:
             colorlessItems.append(item)
 
     sortItemsByName(colorlessItems)

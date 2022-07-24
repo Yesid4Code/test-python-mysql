@@ -7,8 +7,8 @@ from data import Data
 
 
 def get_branche(id: int) -> dict:
-  """Function that gets the information of a branch"""
-  return (Data().get_branches()[id])
+    """Function that gets the information of a branch"""
+    return (Data().get_branches()[id])
 
 
 companies = Data.get_companies()

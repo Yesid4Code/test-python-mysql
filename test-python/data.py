@@ -1,10 +1,9 @@
 
 
 class Data:
-    
+
     @staticmethod
     def get_companies():
-        
         companies = [
             {
                 'id': 1,
@@ -27,12 +26,12 @@ class Data:
                 'dv': '3',
                 'branches': [4]
             }
-        ] 
+        ]
         return companies
-    
+
     @staticmethod
     def get_branches():
-        
+
         branches = [
             {
                 'id': 1,
@@ -64,9 +63,9 @@ class Data:
                 'address': 'Cll 5 # 5-43',
                 'isMain': False
             }
-        ]     
+        ]
         return branches
-    
+
     @staticmethod
     def get_thirds():
         thirds = [
@@ -372,7 +371,7 @@ class Data:
             }
         ]
         return thirds
-    
+
     @staticmethod
     def get_colors():
         colors = [
@@ -426,7 +425,7 @@ class Data:
             }
         ]
         return colors
-    
+
     @staticmethod
     def get_items():
         items = [
@@ -482,5 +481,3 @@ class Data:
             }
         ]
         return items
-    
-    

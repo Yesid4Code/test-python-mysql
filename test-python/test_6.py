@@ -1,9 +1,9 @@
 """
-  6) ordernar las compañias por nombre y dentro de cada compañia, crear un objecto 
-  llamado thirds el cual va a terner todos los terceros que pertenezcan a esa compañia
+  6) ordernar las compañias por nombre y dentro de cada compañia,
+  crear un objecto llamado thirds el cual va a terner todos los
+  terceros que pertenezcan a esa compañia
 """
 from data import Data
-#from test_5 import thirds, sortThirdsByName
 
 
 def myFunc(e):
